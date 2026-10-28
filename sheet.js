@@ -3,7 +3,7 @@ require("dotenv").config();
 const { google } = require("googleapis");
 const https = require("https");
 
-const SPREADSHEET_ID = "1pwESJJFsrOZhHAHMCRsVprZUGOmn55zsVCIPbzHsNi8";
+const SPREADSHEET_ID = process.env.GOOGLE_SPREADSHEET_ID;
 const SHEET_NAME = "클랜전 현황";
 
 const CLANS = [

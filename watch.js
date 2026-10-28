@@ -1,8 +1,10 @@
+require("dotenv").config();
+
 const { google } = require("googleapis");
 const { spawn } = require("child_process");
 const path = require("path");
 
-const SPREADSHEET_ID = "1pwESJJFsrOZhHAHMCRsVprZUGOmn55zsVCIPbzHsNi8";
+const SPREADSHEET_ID = process.env.GOOGLE_SPREADSHEET_ID;
 
 const auth = new google.auth.GoogleAuth({
   keyFile: path.join(__dirname, "service-account.json"),
