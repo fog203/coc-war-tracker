@@ -56,3 +56,7 @@ CoC API는 등록된 IP에서만 요청할 수 있어, 로컬 Node.js 프로그�
 Google Apps Script에서 로컬 프로그램을 직접 실행할 수 없으므로, 스프레드시트의 설정 셀을 요청 전달 수단으로 사용했습니다.
 
 `watch.js`가 10초마다 요청 상태를 확인하고, 새로고침 요청이 있으면 `sheet.js`를 실행합니다
+
+
+<img width="1383" height="1137" alt="클랜 현황 대시보드" src="https://github.com/user-attachments/assets/508184cc-2c8c-479d-afe9-e21b7c01800f" />
+
